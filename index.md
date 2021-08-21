@@ -1,3 +1,12 @@
+## My ROKS
+1. Use https://techzone.ibm.com/ to install OpenShift. Use "Cloud Pak for Integration Activation Kit".  When available, follow instructions on https://ibm-garage-tsa.github.io/cp4i-demohub/overview/ to install Cloud Pak for Integration.
+
+### License Service
+By default license serivice is not activated. For instructions, see https://www.ibm.com/docs/en/cloud-paks/cp-integration/2021.2?topic=service-deploying-license-cloud-pak-integration
+
+
+-----------------------------------------------
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/francoisvdm/MyROKS/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
