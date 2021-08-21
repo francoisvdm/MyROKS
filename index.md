@@ -2,7 +2,10 @@
 1. Use [IBM Techzone](https://techzone.ibm.com/) to install OpenShift. Use "Cloud Pak for Integration Activation Kit".  When available, follow instructions on [DemoHub](https://ibm-garage-tsa.github.io/cp4i-demohub/overview/) to install Cloud Pak for Integration.
 
 ### License Service
-By default license serivice is not activated. For instructions, see https://www.ibm.com/docs/en/cloud-paks/cp-integration/2021.2?topic=service-deploying-license-cloud-pak-integration
+By default license serivice is not activated. For instructions, see [Deploying License Service](https://www.ibm.com/docs/en/cloud-paks/cp-integration/2021.2?topic=service-deploying-license-cloud-pak-integration)
+
+#### HowTo
+From OpenShift console > Installed Operators, find the "IBM Cloud Pak for Integration Platform Navgator". Go to "Platform Navigator" tab, and open the 
 
 
 -----------------------------------------------
