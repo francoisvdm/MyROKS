@@ -25,6 +25,11 @@ Will not go ready until you see the following in OpenShift Pods:
 
 ## MQ
 
+QM1 - basic non-production
+QM2 - production
+* Storage - ibmc-file-gold-gid
+* Volume - peristent-claim
+
 ## ACE
 
 -----------------------------------------------
