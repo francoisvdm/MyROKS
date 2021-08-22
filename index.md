@@ -12,7 +12,7 @@ spec
   licensing: true
 ------
 Then save it. I've found that if I take too long to update and save, that a newer version of the yaml must be loaded, so I guess something is updating it in the background. So, make the update fast and save it.  Before I saved it, it looks like:
-
+[Image](license server enable.jpg)
 -----------------------------------------------
 
 ## Welcome to GitHub Pages
