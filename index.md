@@ -13,7 +13,6 @@ From _OpenShift console -> Installed Operators_, find the "IBM Cloud Pak for Int
 ```
 
 > oops
-> 
 > test
 
 
