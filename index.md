@@ -5,7 +5,7 @@
 By default license serivice is not activated. For instructions, see [Deploying License Service](https://www.ibm.com/docs/en/cloud-paks/cp-integration/2021.2?topic=service-deploying-license-cloud-pak-integration)
 
 ### HowTo
-From _OpenShift console -> Installed Operators_, find the "IBM Cloud Pak for Integration Platform Navigator". Go to "Platform Navigator" tab, and open the yaml. Add the >following two lines in the "spec" section:
+From _OpenShift console -> Installed Operators_, find the "IBM Cloud Pak for Integration Platform Navigator" operator. Go to "Platform Navigator" tab, and open the yaml. Add the following two lines in the "spec" section:
 
 ```YAML
  requestIbmServices:
