@@ -13,6 +13,7 @@ From OpenShift console > Installed Operators, find the "IBM Cloud Pak for Integr
 ```
 
 Then save it. I've found that if I take too long to update and save, that a newer version of the yaml must be loaded, so I guess something is updating it in the background. So, make the update fast and save it.  Before I saved it, it looks like:
+
 ![Image](abc.jpg)
 -----------------------------------------------
 
