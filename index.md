@@ -1,7 +1,7 @@
-## My ROKS
+# My ROKS
 1. Use [IBM Techzone](https://techzone.ibm.com/) to install OpenShift. Use "Cloud Pak for Integration Activation Kit".  When available, follow instructions on [DemoHub](https://ibm-garage-tsa.github.io/cp4i-demohub/overview/) to install Cloud Pak for Integration.
 
-### License Service
+## License Service
 By default license serivice is not activated. For instructions, see [Deploying License Service](https://www.ibm.com/docs/en/cloud-paks/cp-integration/2021.2?topic=service-deploying-license-cloud-pak-integration)
 
 ### HowTo
@@ -15,6 +15,13 @@ From OpenShift console > Installed Operators, find the "IBM Cloud Pak for Integr
 Then save it. I've found that if I take too long to update and save, that a newer version of the yaml must be loaded, so I guess something is updating it in the background. So, make the update fast and save it.  Before I saved it, it looks like:
 
 ![Image](abc.jpg)
+
+## Operations Dashboard
+In ROKS I'veconfigured RWX as _File Gold_ storage and RWO as _Block Gold_ storage. After installation several minutes before it goes to ready.
+
+Will not go ready until you see the following in OpenShift Pods:
+
+![Image](od.jpg)
 -----------------------------------------------
 
 ## Welcome to GitHub Pages
