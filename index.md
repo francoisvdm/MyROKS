@@ -5,15 +5,14 @@
 By default license serivice is not activated. For instructions, see [Deploying License Service](https://www.ibm.com/docs/en/cloud-paks/cp-integration/2021.2?topic=service-deploying-license-cloud-pak-integration)
 
 ### HowTo
-From OpenShift console > Installed Operators, find the "IBM Cloud Pak for Integration Platform Navgator". Go to "Platform Navigator" tab, and open the yaml. Add the following two lines in the "spec" section:
-------
-`spec
+_From OpenShift console > Installed Operators, find the "IBM Cloud Pak for Integration Platform Navgator". Go to "Platform Navigator" tab, and open the yaml. Add the following two lines in the "spec" section:_
 
+`spec
   requestIbmServices:
    licensing: true`
-------
+
 Then save it. I've found that if I take too long to update and save, that a newer version of the yaml must be loaded, so I guess something is updating it in the background. So, make the update fast and save it.  Before I saved it, it looks like:
-![Image](/license server enable.jpg)
+![Image](abc.jpg)
 -----------------------------------------------
 
 ## Welcome to GitHub Pages
