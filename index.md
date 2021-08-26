@@ -26,9 +26,20 @@ Will not go ready until you see the following in OpenShift Pods:
 ## MQ
 
 QM1 - basic non-production
+* Availability = Single Instance
+* Enable tracing = no
+
 QM2 - production
-* Storage - ibmc-file-gold-gid
-* Volume - peristent-claim
+* Availability = Single Instance
+* Storage = CP4I Block Performance
+* Volume = peristent-claim
+* Enable tracing = no
+
+QM3 - production
+* Availability = Single Instance
+* Storage = CP4I Block Performance
+* Volume = Persistent-claim
+* Enable tracing = yes
 
 ## ACE
 
