@@ -44,9 +44,9 @@ QM3 - production
 ## ACE
 ### Create integration dashboards
 ACE1 - non-production
-* Replicas - 3
+* Replicas - 1
 * Storage - ibmc-file-gold-gid
-* Storage type - persistent-claim
+* Storage type - ephemeral
 
 -----------------------------------------------
 
