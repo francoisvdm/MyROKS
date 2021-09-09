@@ -24,7 +24,7 @@ Will not go ready until you see the following in OpenShift Pods:
 ![Image](od.jpg)
 
 ## MQ
-
+### Create queue managers
 QM1 - basic non-production
 * Availability = Single Instance
 * Enable tracing = no
@@ -42,6 +42,11 @@ QM3 - production
 * Enable tracing = yes
 
 ## ACE
+### Create integration dashboards
+ACE1 - non-production
+* Replicas - 3
+* Storage - ibmc-file-gold-gid
+* Storage type - persistent-claim
 
 -----------------------------------------------
 
