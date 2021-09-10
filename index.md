@@ -46,8 +46,14 @@ QM3 - production
 ACE1 - non-production
 * Replicas - 1
 * Storage - ibmc-file-gold-gid
-* Storage type - ephemeral
+* Storage type - persistent-claim
 
+## Integration tracing
+### Create am instance
+cp4i-od-dev
+* Storage (config db) - ibmc-file-gold-gid
+* Storage (shared) - ibmc-file-gold-gid
+* Storage (tracing) - ibmc-block-gold
 -----------------------------------------------
 
 ## Test Applications
