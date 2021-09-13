@@ -45,8 +45,10 @@ QM3 - production
 ### Create integration dashboards
 ACE1 - non-production
 * Replicas - 1
-* Storage - ibmc-file-gold-gid
+* Storage - ibmc-file-bronze-gid
 * Storage type - persistent-claim
+### The following failed in above configuration
+* Storage - 
 
 ## Integration tracing
 ### Create am instance
