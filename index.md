@@ -16,6 +16,9 @@ Then save it. I've found that if I take too long to update and save, that a newe
 
 ![Image](abc.jpg)
 
+To test the above:
+License Service aggregate data every 5 min. but License Service Reporter import data in daily schedule. If you see the data in License Service and you need to see those data in License Service Reporter you may “force” upload deleting ibm-licensing-service-instance-xxxxx pod, it will be recreated and after 6 min it will send data to License Service Reporter.
+
 ## Operations Dashboard
 In ROKS I'veconfigured RWX as _File Gold_ storage and RWO as _Block Gold_ storage. After installation several minutes before it goes to ready.
 
