@@ -66,7 +66,12 @@ ACE Message Flow generate a simple MQ message every x seconds and put it on queu
 ACE Message Flow gets message from queue x and puts it to queue z. 
 
 
-
+## Ticklist
+* Install OpenShift
+* Install CP4I
+* Create non-production queue manager
+* Create non-production ACE
+* Configure license service
 
 
 
