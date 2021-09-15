@@ -21,6 +21,10 @@ Test to see if licensing pod is running: kubectl get pod --all-namespaces | find
 
 License Service aggregate data every 5 min. but License Service Reporter import data in daily schedule. If you see the data in License Service and you need to see those data in License Service Reporter you may “force” upload deleting ibm-licensing-service-instance-xxxxx pod, it will be recreated and after 6 min it will send data to License Service Reporter.
 
+## License Service Reporter
+
+Deploy the License Service Reporter: See [Deploying License Service Reporter](https://www.ibm.com/docs/en/cloud-paks/cp-integration/2021.2?topic=SSGT7J_21.2/license-service/1.x.x/license_reporter_deployment.html#lrcons)
+
 ## Operations Dashboard
 In ROKS I'veconfigured RWX as _File Gold_ storage and RWO as _Block Gold_ storage. After installation several minutes before it goes to ready.
 
