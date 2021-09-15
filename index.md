@@ -81,6 +81,7 @@ ACE Message Flow gets message from queue x and puts it to queue z.
 * Create non-production queue manager
 * Create non-production ACE
 * Configure license service
+* Deploy License service reporter
 
 
 
