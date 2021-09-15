@@ -50,6 +50,9 @@ QM3 - production
 * Volume = Persistent-claim
 * Enable tracing = yes
 
+### Configuration
+Remove channel security - Under queue manager _communication_ change _CHLAUTH records_ to _Disabled_.
+
 ## ACE
 ### Create integration dashboards
 ACE1 - non-production
