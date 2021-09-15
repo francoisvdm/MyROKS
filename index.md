@@ -82,9 +82,12 @@ ACE Message Flow gets message from queue x and puts it to queue z.
 * Install OpenShift
 * Install CP4I
 * Create non-production queue manager
+* Configure queue manager
+** Remove security
 * Create non-production ACE
 * Configure license service
 * Deploy License service reporter
+* Deploy ACE flow _ROKS-ticker-MFP_ - this flow pops a message on a queue every x seconds
 
 
 
