@@ -21,9 +21,7 @@ Test to see if licensing pod is running: kubectl get pod --all-namespaces | find
 
 License Service aggregate data every 5 min. but License Service Reporter import data in daily schedule. If you see the data in License Service and you need to see those data in License Service Reporter you may “force” upload deleting ibm-licensing-service-instance-xxxxx pod, it will be recreated and after 6 min it will send data to License Service Reporter.
 
-To see the detail and where the calculations are coming from, see [Obtaining status page to view the license usage details](https://www.ibm.com/docs/en/cpfs?topic=service-obtaining-status-page). In short, make the following API call: <<License Service URL>>/status?token=<<token>> .
- 
-test
+To see the detail and where the calculations are coming from, see [Obtaining status page to view the license usage details](https://www.ibm.com/docs/en/cpfs?topic=service-obtaining-status-page). In short, make the following API call: <<License Service URL>>/status?token=<<token>>.
  
 You can get the License Service URL from OpenShift console _Networking->Routes_ and the token from _Workloads->Secrets_.
 
