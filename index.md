@@ -23,6 +23,8 @@ License Service aggregate data every 5 min. but License Service Reporter import 
 
 To see the detail and where the calculations are coming from, see [Obtaining status page to view the license usage details](https://www.ibm.com/docs/en/cpfs?topic=service-obtaining-status-page). In short, make the following API call: <<License Service URL>>/status?token=<<token>> .
  
+test
+ 
 You can get the License Service URL from OpenShift console _Networking->Routes_ and the token from _Workloads->Secrets_.
 
 ## License Service Reporter
