@@ -99,6 +99,10 @@ ACE Message Flow generate a simple MQ message every x seconds and put it on queu
 ### App 2
 ACE Message Flow gets message from queue x and puts it to queue z. 
 
+For 2nd deployment:
+* CPU request 600m
+* CPU limit 600m
+
 
 ## Ticklist
 * Install OpenShift
@@ -110,6 +114,8 @@ ACE Message Flow gets message from queue x and puts it to queue z.
 * Configure license service
 * Deploy License service reporter
 * Deploy ACE flow _ROKS-ticker-MFP_ - this flow pops a message on a queue every x seconds
+* Deploy ACE flow _MQ-INtoOut-MF_ - this flow reads message from queue x and put in queue z
+* Dploy another copy of previous flow
 
 
 
