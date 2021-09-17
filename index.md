@@ -102,6 +102,7 @@ ACE Message Flow gets message from queue x and puts it to queue z.
 For 2nd deployment:
 * CPU request 600m
 * CPU limit 600m
+* Replicas 2
 
 
 ## Ticklist
