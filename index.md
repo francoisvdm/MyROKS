@@ -70,6 +70,8 @@ Remove channel security - Under queue manager _communication_ change _CHLAUTH re
 ** To find MQ service name for a client deployed in the same cluster
 oc get svc -n <namespace>
   answer should be something like qm1-non-production2-ibm-mq
+If your application is deployed on a different namespace from where the Queue Manager is deployed, qualify the name of the service with the namespace as below; 
+<service-name>.<namespace>.svc an as an example: mq-tls-rel-ibm-mq.mq.svc
  
 **To remove security from a channel:**
 
