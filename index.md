@@ -68,18 +68,22 @@ Remove channel security - Under queue manager _communication_ change _CHLAUTH re
 ### Related comments
  
 ** To find MQ service name for a client deployed in the same cluster
+
 oc get svc -n <namespace>
-  answer should be something like qm1-non-production2-ibm-mq
+ 
+answer should be something like qm1-non-production2-ibm-mq
+
 If your application is deployed on a different namespace from where the Queue Manager is deployed, qualify the name of the service with the namespace as below; 
+
 <service-name>.<namespace>.svc an as an example: mq-tls-rel-ibm-mq.mq.svc
  
-**To remove security from a channel:**
+**To remove security from a channel:
 
 Go to _View Configuration_->_Security Tab_->_Channel authentication_
 
 Click _Create_
 
- Rule Type _Block_ and _Final assigned user ID_
+Rule Type _Block_ and _Final assigned user ID_
 Give your channel name
 and User list enter _nobody_
 click on plus sign next to user list then click on _Create_
