@@ -84,7 +84,6 @@ Or, find it from OpenShift:
 ![Image](Service.jpg)
  
 And use it in the Toolkit for the queue manager hostname
-
  ![Image](MQHostname.jpg)
  
 **To remove security from a channel:**
