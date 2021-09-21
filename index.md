@@ -75,7 +75,7 @@ answer should be something like qm1-non-production2-ibm-mq
 
 If your application is deployed on a different namespace from where the Queue Manager is deployed, qualify the name of the service with the namespace as below; 
 
-<service-name>.<namespace>.svc an as an example: mq-tls-rel-ibm-mq.mq.svc
+<<service-name>>.<<namespace>>.svc an as an example: mq-tls-rel-ibm-mq.mq.svc
  
 **To remove security from a channel:**
 
@@ -129,7 +129,7 @@ For 2nd deployment:
 * Install CP4I
 * Create non-production queue manager QM1
 * Configure queue manager
-** Remove security
+* Remove security
 * Create non-production ACE
 * Configure license service
 * Deploy License service reporter
