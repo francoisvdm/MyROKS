@@ -61,6 +61,15 @@ QM3 - production
 * Storage = CP4I Block Performance
 * Volume = Persistent-claim
 * Enable tracing = yes
+ 
+QM4 - non-production
+* Availability = Single Instance
+* Storage = CP4I Block Performance
+* Volume = peristent-claim
+* Enable tracing = no
+* Queue manager name = QM1
+* PKI Keys - mqtlskey tls.key tls-secret
+* PKI Trust - mqtlscert tls.crt tls-secret
 
 ### Configuration
 Remove channel security - Under queue manager _communication_ change _CHLAUTH records_ to _Disabled_.
