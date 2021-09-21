@@ -71,11 +71,13 @@ Remove channel security - Under queue manager _communication_ change _CHLAUTH re
 
 ```oc get svc -n <namespace>```
  
-answer should be something like qm1-non-production2-ibm-mq
+The answer should be something like qm1-non-production2-ibm-mq
 
-If your application is deployed on a different namespace from where the Queue Manager is deployed, qualify the name of the service with the namespace as below; 
+If your application is deployed on a different namespace from where the Queue Manager is deployed, qualify the name of the service with the namespace as below:
 
-<<service-name>>.<<namespace>>.svc an as an example: mq-tls-rel-ibm-mq.mq.svc
+<<service-name>>.<<namespace>>.svc 
+ 
+as an example: _mq-tls-rel-ibm-mq.mq.svc_
  
 **To remove security from a channel:**
 
