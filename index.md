@@ -80,7 +80,6 @@ If your application is deployed on a different namespace from where the Queue Ma
 as an example: _mq-tls-rel-ibm-mq.mq.svc_
  
 Or, find it from OpenShift: 
- 
 ![Image](Service.jpg)
  
 And use it in the Toolkit for the queue manager hostname
