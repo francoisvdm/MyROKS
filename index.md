@@ -67,9 +67,9 @@ Remove channel security - Under queue manager _communication_ change _CHLAUTH re
  
 ### Related comments
  
-** To find MQ service name for a client deployed in the same cluster**
+**To find MQ service name for a client deployed in the same cluster**
 
-oc get svc -n <namespace>
+```oc get svc -n <namespace>```
  
 answer should be something like qm1-non-production2-ibm-mq
 
