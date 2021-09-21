@@ -77,7 +77,7 @@ If your application is deployed on a different namespace from where the Queue Ma
 
 <service-name>.<namespace>.svc an as an example: mq-tls-rel-ibm-mq.mq.svc
  
-**To remove security from a channel:
+**To remove security from a channel:**
 
 Go to _View Configuration_->_Security Tab_->_Channel authentication_
 
