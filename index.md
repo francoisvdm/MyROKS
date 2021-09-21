@@ -67,7 +67,7 @@ Remove channel security - Under queue manager _communication_ change _CHLAUTH re
  
 ### Related comments
  
-** To find MQ service name for a client deployed in the same cluster
+** To find MQ service name for a client deployed in the same cluster**
 
 oc get svc -n <namespace>
  
@@ -89,7 +89,7 @@ and User list enter _nobody_
 click on plus sign next to user list then click on _Create_
  
 **To pull a different MQ image:**
-When you create a new queue manager, in the yaml just below 
+ When you create a new queue manager, in the yaml just below 
 name: QUICKSTART
 add
 image: image-registry.openshift-image-registry.svc:5000/openshift-operators/mymq:latest
