@@ -38,8 +38,16 @@ Will not go ready until you see the following in OpenShift Pods:
 
 ## MQ
 ### Create queue managers
-QM1 - basic non-production
+QM1 - non-production
 * Availability = Single Instance
+* Storage = CP4I Block Performance
+* Volume = peristent-claim
+* Enable tracing = no
+* Queue manager name = QM1
+ 
+QM2 - basic non-production - stop and start will loose queue definitions
+* Availability = Single Instance
+* Volume = ephimereal
 * Enable tracing = no
 
 QM2 - production
@@ -108,7 +116,7 @@ For 2nd deployment:
 ## Ticklist
 * Install OpenShift
 * Install CP4I
-* Create non-production queue manager
+* Create non-production queue manager QM1
 * Configure queue manager
 ** Remove security
 * Create non-production ACE
