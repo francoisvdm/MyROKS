@@ -79,6 +79,8 @@ If your application is deployed on a different namespace from where the Queue Ma
  
 as an example: _mq-tls-rel-ibm-mq.mq.svc_
  
+Or, find it from OpenShift: ![Image](Service.jpg)
+ 
 **To remove security from a channel:**
 
 Go to _View Configuration_->_Security Tab_->_Channel authentication_
