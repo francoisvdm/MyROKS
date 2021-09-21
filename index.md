@@ -75,9 +75,9 @@ The answer should be something like qm1-non-production2-ibm-mq
 
 If your application is deployed on a different namespace from where the Queue Manager is deployed, qualify the name of the service with the namespace as below:
 
- <<service-name>>.<<namespace>>.svc 
+<<service-name>>.<<namespace>>.svc 
 
- as an example: _mq-tls-rel-ibm-mq.mq.svc_
+as an example: _mq-tls-rel-ibm-mq.mq.svc_
  
 Or, find it from OpenShift: 
  ![Image](Service.jpg)
