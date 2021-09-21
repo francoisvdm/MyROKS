@@ -66,6 +66,11 @@ QM3 - production
 Remove channel security - Under queue manager _communication_ change _CHLAUTH records_ to _Disabled_.
  
 ### Related comments
+ 
+** To find MQ service name for a client deployed in the same cluster
+oc get svc -n <namespace>
+  answer should be something like qm1-non-production2-ibm-mq
+ 
 **To remove security from a channel:**
 
 Go to _View Configuration_->_Security Tab_->_Channel authentication_
