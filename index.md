@@ -154,7 +154,8 @@ For 2nd deployment:
 * Deploy ACE flow _MQ-INtoOut-MF_ - this flow reads message from queue x and put in queue z
 * Dploy another copy of previous flow
 
-
+## Event Streams
+* Install Event Streams from the ES Operator _IBM Event Streams_.
 
 
 
